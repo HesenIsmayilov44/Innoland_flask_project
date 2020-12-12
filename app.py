@@ -28,6 +28,7 @@ def search():
         return redirect('/')
 
 
+
 @app.route('/detail/<string:id>')
 def detail(id):
     data = list()
